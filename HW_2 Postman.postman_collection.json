@@ -13,8 +13,12 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server!ss\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server!\");\r",
 							"});"
 						],
 						"type": "text/javascript"
