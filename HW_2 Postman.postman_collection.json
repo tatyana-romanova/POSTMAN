@@ -32,7 +32,7 @@
 					"formdata": []
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5007/first",
+					"raw": "http://162.55.220.72:5005/first",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -40,7 +40,7 @@
 						"220",
 						"72"
 					],
-					"port": "5007",
+					"port": "5005",
 					"path": [
 						"first"
 					]
@@ -134,7 +134,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5007/user_info_3",
+					"raw": "http://162.55.220.72:5005/user_info_3",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -142,7 +142,7 @@
 						"220",
 						"72"
 					],
-					"port": "5007",
+					"port": "5005",
 					"path": [
 						"user_info_3"
 					]
